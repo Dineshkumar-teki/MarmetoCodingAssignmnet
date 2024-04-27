@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+.product-page{
+  display: flex;
+  background-color: white;
+  padding: 40px 0 40px 40px;
+  gap: 20px;
+}
+.product-details{
+  width: 100%;
+}
+h4{
+  color: silver;
+}
+.imageContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
+}
+img{
+  border-radius: 10px;
+}
+.imageContainer>img{
+  width: 70%;
+  height: 70%;
+}
+.moreImagesContainer{
+  width: 100%;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+.moreImagesContainer>img{
+  width: 80px;
+}
+
+#titleContainer{
+  padding-bottom: 12px;
+}
+.product-title{
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#priceContainer{
+  padding: 15px 0;
+}
+.price-discount{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 13px;
+}
+.price{
+  font-size: 28px;
+  font-weight: 700;
+  color: darkblue;
+}
+.discount{
+  color: orangered;
+  font-size: 18px;
+  align-self: flex-end;
+  padding-bottom: 5px;
+}
+.comparePrice{
+  font-size: 20px;
+  color: silver;
+  text-decoration: line-through;
+}
+#colorContainer,
+#sizeAndCartContainer{
+  padding: 15px 0;
+}
+.color-option,
+.product-option{
+  padding-top: 20px;
+}
+
+.countAndCart{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product-option-size{
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+.eachSizeOption{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: inline-flex;
+  padding: 8px;
+  justify-content: center;
+  gap: 8px;
+  color: darkblue;
+}
+.colordiv{
+  width: 70px;
+  height: 70px;
+}
+.color-option{
+  display: flex;
+  gap: 10px;
+}
+hr{
+  color: silver;
+  border: none;
+  height: 1px;
+  background-color: lightgrey;
+}
+.counter{
+  display: flex;
+  justify-content: space-around;
+  width: 120px;
+  background-color: rgb(231, 227, 227);
+  border-radius: 20px;
+  padding: 10px;
+  color: darkblue;
+}
+.cartbutton{
+  background-color: darkblue;
+  color: white;
+  display: inline-block;
+  width: 220px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+#descriptionContainer{
+  margin-top: 20px;
+  color: gray;
+  font-size: 15px;
+}
+
+.selected{
+  border: 2px solid black;
+}
+.color-name{
+  display: none;
+}
+.cartmsg{
+  margin-top: 10px;
+  color: darkblue;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+.minuserrorcolor{
+  color: gray;
+}
+.imgeffect{
+  border: 2px solid black;
+}
+.sub1{
+  border: 2px solid black;
+}
