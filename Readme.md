@@ -1,4 +1,5 @@
-Certainly, here's a more detailed breakdown:
+
+code Explanation:
 
 1. **Fetching Product Data:**
    - The code retrieves product details from a JSON file hosted on Shopify's server using the Fetch API.
