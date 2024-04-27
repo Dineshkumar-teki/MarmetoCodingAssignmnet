@@ -1,67 +1,33 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+Certainly, here's a more detailed breakdown:
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+1. **Fetching Product Data:**
+   - The code retrieves product details from a JSON file hosted on Shopify's server using the Fetch API.
+   - It checks if the response is okay and then parses the JSON data.
 
-## Getting Started
+2. **Displaying Product Information:**
+   - Vendor name, product title, price, discount percentage, and compare price are displayed.
+   - These details are dynamically inserted into the HTML document using DOM manipulation.
 
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code.git
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
+3. **Options for Color and Size:**
+   - For color options, the code creates colored divs based on the available colors in the product data.
+   - Each color div is clickable, allowing users to select a color.
+   - For size options, radio buttons are created dynamically based on the available sizes.
 
-2. **Navigate to Project Directory:**
+4. **Adjusting Quantity:**
+   - Plus and minus buttons allow users to adjust the quantity of the product.
+   - Event listeners are attached to these buttons to update the displayed quantity accordingly.
 
-3. **Explore the Structure:**
-Take a moment to review the project structure:
+5. **Adding to Cart:**
+   - A "Add to Cart" button is provided for users to add the selected product to their cart.
+   - Upon clicking the button, a message is displayed indicating that the product has been added to the cart.
+   - If a color or size option is not selected, an error message is displayed instead.
 
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for your project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for your project.
-  
-> **Important:** Avoid using additional files or a single file for your code. Feel free to organize asset files by creating a separate folder.
+6. **Error Handling:**
+   - Error handling is implemented to ensure that users select both a color and a size before adding the product to the cart.
+   - If either of these options is not selected, an appropriate error message is displayed.
 
-## Development and Testing
+7. **Product Images:**
+   - Thumbnail images are provided to showcase different views of the product.
+   - Clicking on a thumbnail updates the main product image to the corresponding view.
 
-4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
-5. **Testing:**
-- Test your code to ensure it produces the expected output.
-- Ensure that the console (Developer Tools) does not display any errors.
-
-
----
-## Submission Guidelines
-
-### Option 1: GitHub Repository
-
-1. Create a new public repository on GitHub.
-2. Upload your project files (index.html, style.css, script.js) to the repository.
-3. Write a brief description of your project in the README.md file.
-4. Share the repository URL with us.
-
-### Option 2: ZIP File on Google Drive
-
-1. Create a ZIP file of your entire project.
-2. Upload the ZIP file to your Google Drive.
-3. Please send the public link to the ZIP file in the same email thread where you received the task details.
-
-## Hosting (Bonus)
-You can earn bonus points by hosting your project on a free hosting platform such as GitHub Pages or Netlify.
-
-## Important Notes
-
-- Do not use any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
-- Make sure to include clear instructions on how to run your project (if necessary).
-
-Good luck! We look forward to reviewing your submission.
+Overall, the code provides a user-friendly interface for selecting product options, adjusting quantity, and adding items to the cart while ensuring proper error handling.
